@@ -1,0 +1,65 @@
+[
+    {
+    "id": "B002RL8IYK",
+    "name": "Implants",
+    "subTitle":"A dental implant is an artificial tooth root that is placed into your jaw to hold a replacement tooth or bridge. Dental implants may be an option for people who have lost a tooth or teeth due to periodontal disease, an injury, or some other reason.",
+    "category": "Implants",
+    "img": "https://i.ibb.co/FXNxLwM/Implants.jpg",
+    "description":"Internal Hex Connectors: Shaped like a hexagon, an internal hex connector is an opening in the implant head into which the restoration/abutment is screwed.",
+    "description1":"I'External Hex Connectors: Also shaped like a hexagon, these types of connectors are atop the implant head rather than inside.",
+    "description2":"Internal Octagon Connectors: Shaped like an octagon, an internal octagon connector has an opening in the implant head into which the restoration/abutment is screwed."
+    },
+    {
+    "id": "B002RL82IYK",
+    "name": "Dentistry",
+    "subTitle":"Dentistry is the diagnosis, treatment, and prevention of conditions, disorders, and diseases of the teeth, gums, mouth, and jaw. Often considered necessary for complete oral health, dentistry can have an impact on the health of your entire body.",
+    "category": "Dentistry",
+    "img": "https://i.ibb.co/tYp26b3/Dentistry.jpg",
+    "description":"Restore the oral health and transform the lives of their patients: Whether it is providing preventative care, delivering dental restorative procedures, eliminating pain or correcting dento-facial esthetics, often, in a single visit, the dentist can experience the satisfaction, privilege and joy of positively transforming a patient’s life by restoring oral health.",
+    "description1":"'Exercise creativity in their daily work: Dentistry is often referred to as an art. It requires mastery and technique unique to the profession. Dentistry is largely based on maintaining proper oral health, but is also an aesthetically focused practice. A large part of dentistry involves restoring teeth and making a smile beautiful, one that the patient is happy to show to others",
+    "description2":"Maintain a flexible lifestyle: Because there are a number of different career and practice options in dentistry, practitioners can choose what kind of lifestyle they will lead and often what hours and days they will work."
+    },
+    {
+    "id": "B002RL83IYK",
+    "name": "Dental Bridges",
+    "subTitle":"Typically, a dental bridge lasts between 5-15 years in most scenarios, although this can vary greatly based on your maintenance of the bridge and your oral hygiene. A dental bridge is a common tooth replacement option, used to fill the gap in the mouth caused by missing teeth.",
+    "category": "Dental Bridges",
+    "img": "https://i.ibb.co/mzz0x3G/Dental-Bridges.jpg",
+    "description":"Conventional dental bridge: This is the most popular dental bridge option and involves connecting replacement teeth to the anchoring crowns which are then attached to the adjacent teeth.",
+    "description1":"Cantilever dental bridge: This option is only used when a single natural tooth is available on the side of missing teeth. This option does however leave one side unsupported and requires healthy gums and strong surrounding tissues to work.",
+    "description2":"Maryland dental bridge: This is a type of dental bridge that requires a metal framework to support replacement teeth. While it is among the weakest type of dental bridge, it requires much less tooth preparation then the rest and can subsequently be performed the quickest."
+    },
+    {
+    "id": "B002RL84IYK",
+    "name": "Crowns",
+    "subTitle":"Dental crowns are tooth-shaped “caps” that can be placed over your tooth. Think of it like a snug hat for your tooth. The crown restores the tooth's shape, size, strength and appearance. The dental crown is cemented into place on your tooth and it covers the visible portion of the tooth.",
+    "category": "Crowns",
+    "img": "https://i.ibb.co/j5h1CQM/crowns.jpg",
+    "description":"Bad habits: Grinding or clenching your teeth can cause havoc on your teeth! A night guard is an excellent way to protect your crown and the integrity of your other teeth. You should also avoid crunching down on ice and hard food items, such as hard candies",
+    "description1":"Oral hygiene: Neglecting your oral care routine or not being thorough can easily cause you to lose a crown prematurely. All of your teeth need proper care and decay can develop in the natural tooth structure below the crown.",
+    "description2":"Materials used: Metals are more durable than porcelain and ceramic for dental crowns. Porcelain is more commonly used, especially on anterior (front) teeth for aesthetic purposes."
+    },
+    {
+    "id": "B002RL85IYK",
+    "name": "Invisalign",
+    "subTitle":"How Does Invisalign Straighten Teeth? Invisalign pushes the teeth steadily using gentle pressure, much like metal braces. Your personalized aligners help to move your teeth to a more optimal position. It's not painful, but a little bit of discomfort is felt.",
+    "category": "Invisalign",
+    "img": "https://i.ibb.co/HzSFmsn/Invisalign.jpg",
+    "description":"Clear vs Visible: While Invisalign aligners are made from see-through BPA-free plastic, which renders them virtually invisible to other people, traditional braces are made from metal wires and elastic bands. This makes them more visible which can cause anxiety for some patients.",
+    "description1":"Convenience: Invisalign braces can be removed from the mouth whenever necessary though guidelines suggest patients should wear their trays for 20 - 22 hours per day. In contrast, traditional braces cannot be removed as they are stuck to teeth by wires.",
+    "description2":"Treatment Length: The Invisalign process is substantially shorter than the usual treatment period for traditional braces. Because of how Invisalign works, patients only have to wear the trays for 6 to 18 months whereas traditional braces have an average time of 2 years"
+    },
+    {
+    "id": "B002RL86IYK",
+    "name": "Teeth Whitening",
+    "subTitle":"How Does Teeth Whitening Work? Teeth whitening is a simple process. Whitening products contain one of two tooth bleaches (hydrogen peroxide or carbamide peroxide). These bleaches break stains into smaller pieces, which makes the color less concentrated and your teeth brighter.",
+    "category": "Teeth Whitening",
+    "img": "https://i.ibb.co/MN0t60K/Teeth-Whitening.jpg",
+    "description":"Porcelain veneers, dental crowns, caps, fillings, or dental bonding on the front teeth. These synthetic materials do not respond well to bleaching products. You may need new crowns or veneers if you want these teeth to appear whiter.",
+    "description1":"Yellow teeth usually bleach well, however brown teeth may not whiten as much. Teeth with gray tones, white spots, or discoloration from a dead tooth may not bleach at all.",
+    "description2":"Some conditions may become worse if teeth are bleached. These include: sensitive teeth or teeth with worn enamel, and patients with bruxism (grinding or gnashing of teeth) or temporomandibular joint disorder (TMJ/TMD). In-office whitening procedures may be able to be performed in some cases with these conditions. Consult your dentist."
+    }
+    ]
+
+
+
