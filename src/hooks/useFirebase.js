@@ -42,55 +42,58 @@ const useFirebase = () => {
         return () => unsubscribe;
     }, [])
 
-    //handle login
-    const handleEmailChange = (e) => {
-        setEmail(e.target.value);
-        console.log(e.target.value)
-    };
-    const handlePasswordChange = (e) => {
-        setPassword(e.target.value);
-        console.log(e.target.value)
-        setPassword("");
-    };
-    const handleLogin = () => {
-      return signInWithEmailAndPassword(auth, email, password)
-            .then((result) => {
-                const { email, name, PhotoURL } = result.user;
-                const userInfo = {
-                    name: name,
-                    email: email,
-                    photo: PhotoURL,
-                };
-                setLoggedInUser(userInfo);
-                setError("");
-            })
-            .catch((error) => {
-                setError(error.message);
-            });
-    };
+   
 
     //handle register
-    const handleOnSubmit = (e) => {
-        e.preventDefault();
-        console.log(email, password);
+    const handleUserRegister = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 console.log(result.user);
-                // verifyEmail();
             })
-            .catch((error) => setError(error.message));
+            .catch((error) => {
+                const errorMessage = error.message;
+                console.log(errorMessage, "register")
+            });
     };
+    const hanldeEmail = (e) => {
+        console.log(e.target.value);
+        setEmail(e.target.value);
+    };
+    const hanldePassword = (e) => {
+        console.log(e.target.value);
+        setPassword(e.target.value);
+    };
+    //handle login
+    const handleUserLogin = (email, password) => {
+        signInWithEmailAndPassword(auth, email, password)
+            .then((result) => {
+                console.log(result.user);
+            })
+            .catch((error) => {
+                const errorMessage = error.message;
+                console.log(errorMessage);
+                setError(errorMessage);
+            });
+    };
+
+
+
+
     return {
         user,
         loading,
         signInUsingGoogle,
         logOut,
-        handleLogin,
+        handleUserLogin,
+        handleUserRegister,
         loggedInUser,
         error,
-        handleEmailChange,
-        handlePasswordChange,
-        handleOnSubmit
+        hanldeEmail,
+        hanldePassword,
+        email,
+        password,
+        setLoggedInUser,
+        setError
     }
 }
 

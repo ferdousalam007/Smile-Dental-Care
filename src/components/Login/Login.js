@@ -1,14 +1,13 @@
-import React from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Login.css';
 
 const Login = () => {
-    const { signInUsingGoogle, handleLogin, handleEmailChange, handlePasswordChange, error } = useAuth();
+    const { signInUsingGoogle, handleUserLogin, error, hanldeEmail, hanldePassword, email, password, user } = useAuth();
+
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from ;
-
+    const redirect_uri = location.state?.from || "home"
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
@@ -16,8 +15,14 @@ const Login = () => {
                 history.push(redirect_uri);
             })
     }
-    
-
+    const handleLogin = () => {
+        handleUserLogin(email, password);
+       
+    }
+    if(user.email){
+        
+            history.push(redirect_uri);
+    }
     return (
         <div>
             <div className="bg-blue-200 flex">
@@ -33,7 +38,7 @@ const Login = () => {
                                 </span>
                             </div>
                             <input
-                                onChange={handleEmailChange}
+                                onChange={hanldeEmail}
                                 type="text"
                                 className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border-0 h-10 border-grey-light rounded rounded-l-none px-3 self-center relative  font-roboto text-xl outline-none"
                                 placeholder="Username"
@@ -49,7 +54,7 @@ const Login = () => {
                                 >
                             </div>
                             <input
-                                onChange={handlePasswordChange}
+                                onChange={hanldePassword}
                                 type="password"
                                 className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border-0 h-10 px-3 relative self-center font-roboto text-xl outline-none"
                                 placeholder="Password"

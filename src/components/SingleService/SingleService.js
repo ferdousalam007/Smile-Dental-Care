@@ -35,7 +35,7 @@ const SingleService = () => {
                                     src={singleService?.img}
                                     alt="Card Image"
                                 />
-                                <TiThMenu />
+                                <img src={singleService?.icon} alt="icon" />
                                 <CardBody>
                                     <H6 color="gray">{singleService?.name}</H6>
                                     <Paragraph className="font-semibold" color="gray">

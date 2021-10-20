@@ -6,7 +6,6 @@ import CardFooter from "@material-tailwind/react/CardFooter";
 import H6 from "@material-tailwind/react/Heading6";
 import Paragraph from "@material-tailwind/react/Paragraph";
 import Button from "@material-tailwind/react/Button";
-import { TiThMenu } from 'react-icons/ti';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
@@ -16,7 +15,6 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
-    console.log(services);
     return (
         <div>
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12">
@@ -29,7 +27,7 @@ const Services = () => {
                                     src={service.img}
                                     alt="Card Image"
                                 />
-                                <TiThMenu />
+                                <img src={service.icon} alt="icon" />
                                 <CardBody>
                                     <H6 color="gray">{service.name}</H6>
                                     <Paragraph color="gray">
@@ -39,7 +37,7 @@ const Services = () => {
 
                                 <CardFooter>
                                     <Link to={`/services/${service?.id}`}>
-                                        <Button color="lightBlue" size="lg" ripple="light">
+                                        <Button color="lightGreen" size="lg" ripple="light">
                                             Read More
                                         </Button>
                                     </Link>

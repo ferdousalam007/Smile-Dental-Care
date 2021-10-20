@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bannerImg from '../../images/banne1r.jpg';
 import "./Banner.css";
 const Banner = () => {
@@ -8,7 +9,9 @@ const Banner = () => {
                 <div>
                     <div className="md:w-1/2">
                         <p className="text-7xl font-bold mb-10">Advace Dental Care Give You Smile Face</p>
-                        <a href="#" className="bg-green-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
+                        
+                        <Link to="/" className="bg-green-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">
+                        Contact us</Link>
                     </div>
                 </div>
             </div>
