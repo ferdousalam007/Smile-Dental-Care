@@ -25,7 +25,7 @@ const Login = () => {
     }
     return (
         <div>
-            <div className="bg-blue-200 flex">
+            <div className="bg-green-200 flex">
                 <div className="flex-col flex ml-auto mr-auto items-center w-full lg:w-2/3 md:w-3/5">
                     <h1 className="font-bold text-2xl my-10 text-white"> Login</h1>
                     <div className="mt-2 flex flex-col lg:w-1/2 w-8/12">
@@ -41,7 +41,7 @@ const Login = () => {
                                 onChange={hanldeEmail}
                                 type="text"
                                 className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border-0 h-10 border-grey-light rounded rounded-l-none px-3 self-center relative  font-roboto text-xl outline-none"
-                                placeholder="Username"
+                                placeholder="ENTER YOUR EMAIL"
                             />
                         </div>
                         <div className="flex flex-wrap items-stretch w-full relative h-15 bg-white items-center rounded mb-4">
@@ -57,25 +57,24 @@ const Login = () => {
                                 onChange={hanldePassword}
                                 type="password"
                                 className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border-0 h-10 px-3 relative self-center font-roboto text-xl outline-none"
-                                placeholder="Password"
+                                placeholder="ENTER YOUR PASSWORD"
                             />
                             <div className="flex -mr-px">
                                 <span
                                     className="flex items-center leading-normal bg-white rounded rounded-l-none border-0 px-3 whitespace-no-wrap text-gray-600"
                                 >
-                                    <i className="fas fa-eye-slash"></i>
                                 </span>
                             </div>
                         </div>
                         <p className="text-red-700	">{error}</p>
 
 
-                        <button onClick={handleLogin} type="submit" className="bg-blue-400 py-4 text-center px-17 md:px-12 md:py-4 text-white rounded leading-tight text-xl md:text-base font-sans mt-4 mb-20"
+                        <button onClick={handleLogin} type="submit" className="bg-green-400 py-4 text-center px-17 md:px-12 md:py-4 text-white rounded leading-tight text-xl md:text-base font-sans mt-4 mb-20"
                         > Login
                         </button>
                     </div>
                     <button
-                        className="bg-blue-400 py-4 text-center px-17 md:px-12 md:py-4 text-white rounded leading-tight text-xl md:text-base font-sans  mb-20"
+                        className="bg-green-400 py-4 text-center px-17 md:px-12 md:py-4 text-white rounded leading-tight text-xl md:text-base font-sans  mb-20"
                         onClick={handleGoogleLogin}
                     >Google Sign In</button>
                     <p className="mb-20">You Do not have acoount please <Link className="text-lg text-white hover:text-red-500" to="/register">Create Account</Link></p>
